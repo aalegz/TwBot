@@ -1,6 +1,6 @@
 
 
-public class TwBt {
+public class TBt {
     public static void main(String[] args){
         XMLFeedParser xmlFeedVovo = new XMLFeedParser("https://www.anekdot.ru/rss/tag/2.xml");
         xmlFeedVovo.xmlParse();
